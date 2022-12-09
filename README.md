@@ -15,4 +15,3 @@
 
 [+] PupI is a repository is a repository for open-source third-party Python packages.
 [+] It's similar to RubyGems in the Ruby world, PHP's Packagist, CPAN for Perl, and NPM for Node.js
-[+]  
