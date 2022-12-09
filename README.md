@@ -15,3 +15,9 @@
 
 [+] PupI is a repository is a repository for open-source third-party Python packages.
 [+] It's similar to RubyGems in the Ruby world, PHP's Packagist, CPAN for Perl, and NPM for Node.js
+[+] All important libraries mantioned in requirements.txt (pip list shaw > requirements.txt)
+
+## Writing your own Modules and Packages
+
+[+] Modules are any.py scripts that we call in another .py script.
+[+] Packages are a collection of modules.
