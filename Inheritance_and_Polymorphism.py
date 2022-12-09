@@ -17,7 +17,6 @@
 # print(b)
 # print(len(b))
 # print(del)
-import math
 
 class Line():
 
@@ -40,4 +39,20 @@ li = Line(coordinate1, coordinate2)
 print(li.distance())
 print(li.slope())
 
+pi = 3.14
 
+class Cylinder():
+    def __init__(self, height=1, radius=1):
+        self.h = height
+        self.r = radius
+        print(self.h, self.r, pi)
+
+    def volume(self):
+        return f"The Volume of the Cylinder: {pi*self.r**2*self.h}"
+
+    def surface_area(self):
+        return f"The Surface Area of the Cylinder: {2*pi*self.r*self.h+2*pi*self.r**2}"
+
+c = Cylinder(2,3)
+print(c.volume())
+print(c.surface_area())
