@@ -21,3 +21,8 @@
 
 [+] Modules are any.py scripts that we call in another .py script.
 [+] Packages are a collection of modules.
+
+## __name__ & __main__
+
+[+] An often confusing part of the Python is a mysterious line of code. [ if __name__ == "__main__"]
+[+] Sometimes when you are importing from a module, you would like to know whether a modules function is being used as an import, or if you are using the original .py file of that module.
