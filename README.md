@@ -26,3 +26,16 @@
 
 [+] An often confusing part of the Python is a mysterious line of code. [ if __name__ == "__main__"]
 [+] Sometimes when you are importing from a module, you would like to know whether a modules function is being used as an import, or if you are using the original .py file of that module.
+
+
+## Errors and Exceptions
+
+[+] Errors are bound to happen in our code!
+[+] Especially when someone else ends up using it in an unexpected way.
+[+] We can use error handling to attempt to plan for possible errors.
+[+] We use three keywords for the exceptions:
+        [+] try: this is a block of code to be attempted(may lead to an error)
+        [+] except: Block of code will execute in case there is an error in try block
+        [+] finally: A final block of code to be executed, regardless of an error.
+
+9916994421
