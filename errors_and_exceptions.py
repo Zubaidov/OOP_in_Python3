@@ -1,4 +1,3 @@
-
 try:
     f = open('testfile', 'w')
     f.write("Write a test line")
@@ -9,4 +8,6 @@ except OSError:
 except:
     print("All other errors")
 finally:
-    print("I always run")
+    print("All requirements run thru Operating System")
+
+#Task 1
